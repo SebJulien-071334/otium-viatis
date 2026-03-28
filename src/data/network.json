@@ -1,0 +1,3139 @@
+{
+  "network": [
+    {
+      "id": "1",
+      "code": "1",
+      "name": "Mosson - Gare Sud de France",
+      "color": "#005CA9",
+      "textColor": "#FFFFFF",
+      "directions": [
+        {
+          "direction": 0,
+          "headsign": "Gare Sud de France",
+          "stops": [
+            {
+              "id": "S5563",
+              "code": "5563",
+              "name": "Mosson",
+              "lat": 43.61619786,
+              "lon": 3.819742266
+            },
+            {
+              "id": "S5659",
+              "code": "5659",
+              "name": "Stade de la Mosson",
+              "lat": 43.62126521,
+              "lon": 3.817385375
+            },
+            {
+              "id": "S5489",
+              "code": "5489",
+              "name": "Halles de la Paillade",
+              "lat": 43.62756962,
+              "lon": 3.8175179
+            },
+            {
+              "id": "S5646",
+              "code": "5646",
+              "name": "Saint-Paul",
+              "lat": 43.6306804,
+              "lon": 3.82110108
+            },
+            {
+              "id": "S5490",
+              "code": "5490",
+              "name": "Hauts de Massane",
+              "lat": 43.63620974,
+              "lon": 3.8226899125
+            },
+            {
+              "id": "S5453",
+              "code": "5453",
+              "name": "Euromédecine",
+              "lat": 43.639056212,
+              "lon": 3.828156562
+            },
+            {
+              "id": "S5544",
+              "code": "5544",
+              "name": "Malbosc - Domaine d'Ô",
+              "lat": 43.63472618,
+              "lon": 3.833311225
+            },
+            {
+              "id": "S5409",
+              "code": "5409",
+              "name": "Château d'Ô",
+              "lat": 43.631552576,
+              "lon": 3.842886754
+            },
+            {
+              "id": "S5571",
+              "code": "5571",
+              "name": "Occitanie Hopitaux - Facultés",
+              "lat": 43.634610666,
+              "lon": 3.848448088
+            },
+            {
+              "id": "S5496",
+              "code": "5496",
+              "name": "Hôpital Lapeyronie",
+              "lat": 43.631668675,
+              "lon": 3.852600545
+            },
+            {
+              "id": "S5665",
+              "code": "5665",
+              "name": "Université Montpellier - Triolet",
+              "lat": 43.6291673375,
+              "lon": 3.8613954675
+            },
+            {
+              "id": "S5637",
+              "code": "5637",
+              "name": "Saint-Éloi - Docteur Pezet",
+              "lat": 43.6267990866667,
+              "lon": 3.866241245
+            },
+            {
+              "id": "S5930",
+              "code": "5930",
+              "name": "Boutonnet - Cité des Arts",
+              "lat": 43.622095565,
+              "lon": 3.8683344625
+            },
+            {
+              "id": "S5660",
+              "code": "5660",
+              "name": "Stade Philippidès",
+              "lat": 43.618997735,
+              "lon": 3.869507345
+            },
+            {
+              "id": "S5603",
+              "code": "5603",
+              "name": "Albert 1er - Saint-Charles",
+              "lat": 43.616509605,
+              "lon": 3.874117735
+            },
+            {
+              "id": "S5532",
+              "code": "5532",
+              "name": "Louis Blanc - Agora de la Danse",
+              "lat": 43.61474441,
+              "lon": 3.87813478
+            },
+            {
+              "id": "S5431",
+              "code": "5431",
+              "name": "Corum",
+              "lat": 43.614335335,
+              "lon": 3.88191916
+            },
+            {
+              "id": "S5426",
+              "code": "5426",
+              "name": "Comédie",
+              "lat": 43.60839211,
+              "lon": 3.879788195
+            },
+            {
+              "id": "S5472",
+              "code": "5472",
+              "name": "Gare Saint-Roch",
+              "lat": 43.60577034,
+              "lon": 3.880193665
+            },
+            {
+              "id": "S5441",
+              "code": "5441",
+              "name": "Du Guesclin",
+              "lat": 43.6071379,
+              "lon": 3.88326162
+            },
+            {
+              "id": "S5378",
+              "code": "5378",
+              "name": "Antigone",
+              "lat": 43.60858596,
+              "lon": 3.88666595
+            },
+            {
+              "id": "S5524",
+              "code": "5524",
+              "name": "Léon Blum",
+              "lat": 43.6090545566667,
+              "lon": 3.89013867
+            },
+            {
+              "id": "S5606",
+              "code": "5606",
+              "name": "Place de l'Europe",
+              "lat": 43.60750344625,
+              "lon": 3.89381363125
+            },
+            {
+              "id": "S5627",
+              "code": "5627",
+              "name": "Rives du Lez",
+              "lat": 43.604228985,
+              "lon": 3.894904245
+            },
+            {
+              "id": "S5564",
+              "code": "5564",
+              "name": "Moularès (Hôtel de Ville)",
+              "lat": 43.600614865,
+              "lon": 3.895547875
+            },
+            {
+              "id": "S5614",
+              "code": "5614",
+              "name": "Port Marianne",
+              "lat": 43.6020368866667,
+              "lon": 3.89989776666667
+            },
+            {
+              "id": "S5560",
+              "code": "5560",
+              "name": "Mondial 98",
+              "lat": 43.60277494,
+              "lon": 3.904080655
+            },
+            {
+              "id": "S5559",
+              "code": "5559",
+              "name": "Millénaire",
+              "lat": 43.6033696125,
+              "lon": 3.9100256375
+            },
+            {
+              "id": "S5605",
+              "code": "5605",
+              "name": "Place de France",
+              "lat": 43.603761216,
+              "lon": 3.915571742
+            },
+            {
+              "id": "S5572",
+              "code": "5572",
+              "name": "Odysseum",
+              "lat": 43.6040785225,
+              "lon": 3.919818165
+            },
+            {
+              "id": "S5844",
+              "code": "5844",
+              "name": "Gare Sud de France",
+              "lat": 43.596779065,
+              "lon": 3.92210832
+            }
+          ]
+        },
+        {
+          "direction": 1,
+          "headsign": "Mosson",
+          "stops": [
+            {
+              "id": "S5844",
+              "code": "5844",
+              "name": "Gare Sud de France",
+              "lat": 43.596779065,
+              "lon": 3.92210832
+            },
+            {
+              "id": "S5572",
+              "code": "5572",
+              "name": "Odysseum",
+              "lat": 43.6040785225,
+              "lon": 3.919818165
+            },
+            {
+              "id": "S5605",
+              "code": "5605",
+              "name": "Place de France",
+              "lat": 43.603761216,
+              "lon": 3.915571742
+            },
+            {
+              "id": "S5559",
+              "code": "5559",
+              "name": "Millénaire",
+              "lat": 43.6033696125,
+              "lon": 3.9100256375
+            },
+            {
+              "id": "S5560",
+              "code": "5560",
+              "name": "Mondial 98",
+              "lat": 43.60277494,
+              "lon": 3.904080655
+            },
+            {
+              "id": "S5614",
+              "code": "5614",
+              "name": "Port Marianne",
+              "lat": 43.6020368866667,
+              "lon": 3.89989776666667
+            },
+            {
+              "id": "S5564",
+              "code": "5564",
+              "name": "Moularès (Hôtel de Ville)",
+              "lat": 43.600614865,
+              "lon": 3.895547875
+            },
+            {
+              "id": "S5627",
+              "code": "5627",
+              "name": "Rives du Lez",
+              "lat": 43.604228985,
+              "lon": 3.894904245
+            },
+            {
+              "id": "S5606",
+              "code": "5606",
+              "name": "Place de l'Europe",
+              "lat": 43.60750344625,
+              "lon": 3.89381363125
+            },
+            {
+              "id": "S5524",
+              "code": "5524",
+              "name": "Léon Blum",
+              "lat": 43.6090545566667,
+              "lon": 3.89013867
+            },
+            {
+              "id": "S5378",
+              "code": "5378",
+              "name": "Antigone",
+              "lat": 43.60858596,
+              "lon": 3.88666595
+            },
+            {
+              "id": "S5441",
+              "code": "5441",
+              "name": "Du Guesclin",
+              "lat": 43.6071379,
+              "lon": 3.88326162
+            },
+            {
+              "id": "S5472",
+              "code": "5472",
+              "name": "Gare Saint-Roch",
+              "lat": 43.60577034,
+              "lon": 3.880193665
+            },
+            {
+              "id": "S5426",
+              "code": "5426",
+              "name": "Comédie",
+              "lat": 43.60839211,
+              "lon": 3.879788195
+            },
+            {
+              "id": "S5431",
+              "code": "5431",
+              "name": "Corum",
+              "lat": 43.614335335,
+              "lon": 3.88191916
+            },
+            {
+              "id": "S5532",
+              "code": "5532",
+              "name": "Louis Blanc - Agora de la Danse",
+              "lat": 43.61474441,
+              "lon": 3.87813478
+            },
+            {
+              "id": "S5603",
+              "code": "5603",
+              "name": "Albert 1er - Saint-Charles",
+              "lat": 43.616509605,
+              "lon": 3.874117735
+            },
+            {
+              "id": "S5660",
+              "code": "5660",
+              "name": "Stade Philippidès",
+              "lat": 43.618997735,
+              "lon": 3.869507345
+            },
+            {
+              "id": "S5930",
+              "code": "5930",
+              "name": "Boutonnet - Cité des Arts",
+              "lat": 43.622095565,
+              "lon": 3.8683344625
+            },
+            {
+              "id": "S5637",
+              "code": "5637",
+              "name": "Saint-Éloi - Docteur Pezet",
+              "lat": 43.6267990866667,
+              "lon": 3.866241245
+            },
+            {
+              "id": "S5665",
+              "code": "5665",
+              "name": "Université Montpellier - Triolet",
+              "lat": 43.6291673375,
+              "lon": 3.8613954675
+            },
+            {
+              "id": "S5496",
+              "code": "5496",
+              "name": "Hôpital Lapeyronie",
+              "lat": 43.631668675,
+              "lon": 3.852600545
+            },
+            {
+              "id": "S5571",
+              "code": "5571",
+              "name": "Occitanie Hopitaux - Facultés",
+              "lat": 43.634610666,
+              "lon": 3.848448088
+            },
+            {
+              "id": "S5409",
+              "code": "5409",
+              "name": "Château d'Ô",
+              "lat": 43.631552576,
+              "lon": 3.842886754
+            },
+            {
+              "id": "S5544",
+              "code": "5544",
+              "name": "Malbosc - Domaine d'Ô",
+              "lat": 43.63472618,
+              "lon": 3.833311225
+            },
+            {
+              "id": "S5453",
+              "code": "5453",
+              "name": "Euromédecine",
+              "lat": 43.639056212,
+              "lon": 3.828156562
+            },
+            {
+              "id": "S5490",
+              "code": "5490",
+              "name": "Hauts de Massane",
+              "lat": 43.63620974,
+              "lon": 3.8226899125
+            },
+            {
+              "id": "S5646",
+              "code": "5646",
+              "name": "Saint-Paul",
+              "lat": 43.6306804,
+              "lon": 3.82110108
+            },
+            {
+              "id": "S5489",
+              "code": "5489",
+              "name": "Halles de la Paillade",
+              "lat": 43.62756962,
+              "lon": 3.8175179
+            },
+            {
+              "id": "S5659",
+              "code": "5659",
+              "name": "Stade de la Mosson",
+              "lat": 43.62126521,
+              "lon": 3.817385375
+            },
+            {
+              "id": "S5563",
+              "code": "5563",
+              "name": "Mosson",
+              "lat": 43.61619786,
+              "lon": 3.819742266
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "code": "2",
+      "name": "SAINT-JEAN DE VÉDAS Centre - Notre-Dame de Sablassou / Jacou",
+      "color": "#EF7D00",
+      "textColor": "#ffffff",
+      "directions": [
+        {
+          "direction": 0,
+          "headsign": "Jacou",
+          "stops": [
+            {
+              "id": "S5760",
+              "code": "5760",
+              "name": "Saint-Jean de Védas Centre",
+              "lat": 43.5749465866667,
+              "lon": 3.83049303333333
+            },
+            {
+              "id": "S5761",
+              "code": "5761",
+              "name": "Saint-Jean le Sec",
+              "lat": 43.5709291775,
+              "lon": 3.8380606075
+            },
+            {
+              "id": "S5751",
+              "code": "5751",
+              "name": "La Condamine",
+              "lat": 43.57180155,
+              "lon": 3.844330265
+            },
+            {
+              "id": "S5766",
+              "code": "5766",
+              "name": "Victoire 2",
+              "lat": 43.57519402,
+              "lon": 3.84987247
+            },
+            {
+              "id": "S5633",
+              "code": "5633",
+              "name": "Sabines",
+              "lat": 43.5837803125,
+              "lon": 3.860175275
+            },
+            {
+              "id": "S5672",
+              "code": "5672",
+              "name": "Villeneuve d'Angoulême",
+              "lat": 43.588783935,
+              "lon": 3.86567923
+            },
+            {
+              "id": "S5433",
+              "code": "5433",
+              "name": "Croix d'Argent",
+              "lat": 43.592409285,
+              "lon": 3.86645031
+            },
+            {
+              "id": "S5555",
+              "code": "5555",
+              "name": "Mas Drevon",
+              "lat": 43.59577549,
+              "lon": 3.86806491
+            },
+            {
+              "id": "S5523",
+              "code": "5523",
+              "name": "Lemasson",
+              "lat": 43.59364979,
+              "lon": 3.873113035
+            },
+            {
+              "id": "S5635",
+              "code": "5635",
+              "name": "Saint-Cléophas",
+              "lat": 43.5948868375,
+              "lon": 3.8757313725
+            },
+            {
+              "id": "S5569",
+              "code": "5569",
+              "name": "Nouveau Saint-Roch",
+              "lat": 43.59936681,
+              "lon": 3.87566651
+            },
+            {
+              "id": "S5629",
+              "code": "5629",
+              "name": "Rondelet",
+              "lat": 43.6033524271429,
+              "lon": 3.87543987
+            },
+            {
+              "id": "S5472",
+              "code": "5472",
+              "name": "Gare Saint-Roch",
+              "lat": 43.60577034,
+              "lon": 3.880193665
+            },
+            {
+              "id": "S5426",
+              "code": "5426",
+              "name": "Comédie",
+              "lat": 43.60839211,
+              "lon": 3.879788195
+            },
+            {
+              "id": "S5431",
+              "code": "5431",
+              "name": "Corum",
+              "lat": 43.614335335,
+              "lon": 3.88191916
+            },
+            {
+              "id": "S5387",
+              "code": "5387",
+              "name": "Beaux-Arts",
+              "lat": 43.61699137,
+              "lon": 3.88352225
+            },
+            {
+              "id": "S5509",
+              "code": "5509",
+              "name": "Jeu de Mail des Abbés",
+              "lat": 43.620417485,
+              "lon": 3.88407908
+            },
+            {
+              "id": "S5368",
+              "code": "5368",
+              "name": "Aiguelongue",
+              "lat": 43.626246105,
+              "lon": 3.88338001
+            },
+            {
+              "id": "S5642",
+              "code": "5642",
+              "name": "Saint-Lazare",
+              "lat": 43.6268706683333,
+              "lon": 3.88878552666667
+            },
+            {
+              "id": "S5177",
+              "code": "5177",
+              "name": "Charles de Gaulle",
+              "lat": 43.62818731875,
+              "lon": 3.89743143375
+            },
+            {
+              "id": "S5181",
+              "code": "5181",
+              "name": "Clairval",
+              "lat": 43.63017014,
+              "lon": 3.90260486
+            },
+            {
+              "id": "S5189",
+              "code": "5189",
+              "name": "La Galine",
+              "lat": 43.6314524,
+              "lon": 3.90903264
+            },
+            {
+              "id": "S5176",
+              "code": "5176",
+              "name": "Centurions",
+              "lat": 43.63279339,
+              "lon": 3.91572226
+            },
+            {
+              "id": "S5196",
+              "code": "5196",
+              "name": "Notre-Dame de Sablassou",
+              "lat": 43.6341014316667,
+              "lon": 3.92248556
+            },
+            {
+              "id": "S5170",
+              "code": "5170",
+              "name": "Aube Rouge",
+              "lat": 43.63891032,
+              "lon": 3.9245285075
+            },
+            {
+              "id": "S5818",
+              "code": "5818",
+              "name": "Via Domitia",
+              "lat": 43.6466184475,
+              "lon": 3.9299363775
+            },
+            {
+              "id": "S5186",
+              "code": "5186",
+              "name": "Georges Pompidou",
+              "lat": 43.649320265,
+              "lon": 3.921032665
+            },
+            {
+              "id": "S5291",
+              "code": "5291",
+              "name": "Jacou",
+              "lat": 43.65460066,
+              "lon": 3.91290609333333
+            }
+          ]
+        },
+        {
+          "direction": 1,
+          "headsign": "Saint-Jean de Védas Centre",
+          "stops": [
+            {
+              "id": "S5291",
+              "code": "5291",
+              "name": "Jacou",
+              "lat": 43.65460066,
+              "lon": 3.91290609333333
+            },
+            {
+              "id": "S5186",
+              "code": "5186",
+              "name": "Georges Pompidou",
+              "lat": 43.649320265,
+              "lon": 3.921032665
+            },
+            {
+              "id": "S5818",
+              "code": "5818",
+              "name": "Via Domitia",
+              "lat": 43.6466184475,
+              "lon": 3.9299363775
+            },
+            {
+              "id": "S5170",
+              "code": "5170",
+              "name": "Aube Rouge",
+              "lat": 43.63891032,
+              "lon": 3.9245285075
+            },
+            {
+              "id": "S5196",
+              "code": "5196",
+              "name": "Notre-Dame de Sablassou",
+              "lat": 43.6341014316667,
+              "lon": 3.92248556
+            },
+            {
+              "id": "S5176",
+              "code": "5176",
+              "name": "Centurions",
+              "lat": 43.63279339,
+              "lon": 3.91572226
+            },
+            {
+              "id": "S5189",
+              "code": "5189",
+              "name": "La Galine",
+              "lat": 43.6314524,
+              "lon": 3.90903264
+            },
+            {
+              "id": "S5181",
+              "code": "5181",
+              "name": "Clairval",
+              "lat": 43.63017014,
+              "lon": 3.90260486
+            },
+            {
+              "id": "S5177",
+              "code": "5177",
+              "name": "Charles de Gaulle",
+              "lat": 43.62818731875,
+              "lon": 3.89743143375
+            },
+            {
+              "id": "S5642",
+              "code": "5642",
+              "name": "Saint-Lazare",
+              "lat": 43.6268706683333,
+              "lon": 3.88878552666667
+            },
+            {
+              "id": "S5368",
+              "code": "5368",
+              "name": "Aiguelongue",
+              "lat": 43.626246105,
+              "lon": 3.88338001
+            },
+            {
+              "id": "S5509",
+              "code": "5509",
+              "name": "Jeu de Mail des Abbés",
+              "lat": 43.620417485,
+              "lon": 3.88407908
+            },
+            {
+              "id": "S5387",
+              "code": "5387",
+              "name": "Beaux-Arts",
+              "lat": 43.61699137,
+              "lon": 3.88352225
+            },
+            {
+              "id": "S5431",
+              "code": "5431",
+              "name": "Corum",
+              "lat": 43.614335335,
+              "lon": 3.88191916
+            },
+            {
+              "id": "S5426",
+              "code": "5426",
+              "name": "Comédie",
+              "lat": 43.60839211,
+              "lon": 3.879788195
+            },
+            {
+              "id": "S5472",
+              "code": "5472",
+              "name": "Gare Saint-Roch",
+              "lat": 43.60577034,
+              "lon": 3.880193665
+            },
+            {
+              "id": "S5629",
+              "code": "5629",
+              "name": "Rondelet",
+              "lat": 43.6033524271429,
+              "lon": 3.87543987
+            },
+            {
+              "id": "S5569",
+              "code": "5569",
+              "name": "Nouveau Saint-Roch",
+              "lat": 43.59936681,
+              "lon": 3.87566651
+            },
+            {
+              "id": "S5635",
+              "code": "5635",
+              "name": "Saint-Cléophas",
+              "lat": 43.5948868375,
+              "lon": 3.8757313725
+            },
+            {
+              "id": "S5523",
+              "code": "5523",
+              "name": "Lemasson",
+              "lat": 43.59364979,
+              "lon": 3.873113035
+            },
+            {
+              "id": "S5555",
+              "code": "5555",
+              "name": "Mas Drevon",
+              "lat": 43.59577549,
+              "lon": 3.86806491
+            },
+            {
+              "id": "S5433",
+              "code": "5433",
+              "name": "Croix d'Argent",
+              "lat": 43.592409285,
+              "lon": 3.86645031
+            },
+            {
+              "id": "S5672",
+              "code": "5672",
+              "name": "Villeneuve d'Angoulême",
+              "lat": 43.588783935,
+              "lon": 3.86567923
+            },
+            {
+              "id": "S5633",
+              "code": "5633",
+              "name": "Sabines",
+              "lat": 43.5837803125,
+              "lon": 3.860175275
+            },
+            {
+              "id": "S5766",
+              "code": "5766",
+              "name": "Victoire 2",
+              "lat": 43.57519402,
+              "lon": 3.84987247
+            },
+            {
+              "id": "S5751",
+              "code": "5751",
+              "name": "La Condamine",
+              "lat": 43.57180155,
+              "lon": 3.844330265
+            },
+            {
+              "id": "S5761",
+              "code": "5761",
+              "name": "Saint-Jean le Sec",
+              "lat": 43.5709291775,
+              "lon": 3.8380606075
+            },
+            {
+              "id": "S5760",
+              "code": "5760",
+              "name": "Saint-Jean de Védas Centre",
+              "lat": 43.5749465866667,
+              "lon": 3.83049303333333
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "code": "3",
+      "name": "Juvignac - Lattes Centre / Pérols Étang de l'Or",
+      "color": "#C8D400",
+      "textColor": "#ffffff",
+      "directions": [
+        {
+          "direction": 0,
+          "headsign": "Juvignac",
+          "stops": [
+            {
+              "id": "S5689",
+              "code": "5689",
+              "name": "Pérols Étang de l'Or",
+              "lat": 43.5575958333333,
+              "lon": 3.96345781
+            },
+            {
+              "id": "S5688",
+              "code": "5688",
+              "name": "Pérols Centre",
+              "lat": 43.565415335,
+              "lon": 3.95736508
+            },
+            {
+              "id": "S5687",
+              "code": "5687",
+              "name": "Parc Expo",
+              "lat": 43.5728214625,
+              "lon": 3.9451088375
+            },
+            {
+              "id": "S5685",
+              "code": "5685",
+              "name": "EcoPôle",
+              "lat": 43.578066215,
+              "lon": 3.935150865
+            },
+            {
+              "id": "S5326",
+              "code": "5326",
+              "name": "Soriech",
+              "lat": 43.582458375,
+              "lon": 3.9261041375
+            },
+            {
+              "id": "S6003",
+              "code": "6003",
+              "name": "Boirargues",
+              "lat": 43.58539693,
+              "lon": 3.920200305
+            },
+            {
+              "id": "S5575",
+              "code": "5575",
+              "name": "Pablo Picasso",
+              "lat": 43.597775425,
+              "lon": 3.903547675
+            },
+            {
+              "id": "S5614",
+              "code": "5614",
+              "name": "Port Marianne",
+              "lat": 43.6020368866667,
+              "lon": 3.89989776666667
+            },
+            {
+              "id": "S5564",
+              "code": "5564",
+              "name": "Moularès (Hôtel de Ville)",
+              "lat": 43.600614865,
+              "lon": 3.895547875
+            },
+            {
+              "id": "S5918",
+              "code": "5918",
+              "name": "Rives du Lez - Consuls de Mer",
+              "lat": 43.6040132,
+              "lon": 3.893970545
+            },
+            {
+              "id": "S5677",
+              "code": "5677",
+              "name": "Voltaire",
+              "lat": 43.60371444,
+              "lon": 3.889113075
+            },
+            {
+              "id": "S5604",
+              "code": "5604",
+              "name": "Place Carnot",
+              "lat": 43.6035434166667,
+              "lon": 3.88410860666667
+            },
+            {
+              "id": "S5917",
+              "code": "5917",
+              "name": "Gare Saint-Roch - République",
+              "lat": 43.60523805,
+              "lon": 3.87969681
+            },
+            {
+              "id": "S5570",
+              "code": "5570",
+              "name": "Observatoire",
+              "lat": 43.606385465,
+              "lon": 3.87677107
+            },
+            {
+              "id": "S5636",
+              "code": "5636",
+              "name": "Gambetta - Chaptal",
+              "lat": 43.605921785,
+              "lon": 3.873344125
+            },
+            {
+              "id": "S5610",
+              "code": "5610",
+              "name": "Plan Cabanes",
+              "lat": 43.60855799,
+              "lon": 3.868113755
+            },
+            {
+              "id": "S5527",
+              "code": "5527",
+              "name": "Les Arceaux",
+              "lat": 43.609947645,
+              "lon": 3.8620145
+            },
+            {
+              "id": "S5383",
+              "code": "5383",
+              "name": "Astruc",
+              "lat": 43.610262905,
+              "lon": 3.85493991
+            },
+            {
+              "id": "S5510",
+              "code": "5510",
+              "name": "Jules Guesde",
+              "lat": 43.611384635,
+              "lon": 3.846729795
+            },
+            {
+              "id": "S5662",
+              "code": "5662",
+              "name": "Tonnelles",
+              "lat": 43.6135848283333,
+              "lon": 3.83892714833333
+            },
+            {
+              "id": "S5588",
+              "code": "5588",
+              "name": "Pergola",
+              "lat": 43.61785977,
+              "lon": 3.83943967
+            },
+            {
+              "id": "S5498",
+              "code": "5498",
+              "name": "Hôtel du Département",
+              "lat": 43.6219009575,
+              "lon": 3.8350385875
+            },
+            {
+              "id": "S5598",
+              "code": "5598",
+              "name": "Pilory",
+              "lat": 43.619553255,
+              "lon": 3.83205364
+            },
+            {
+              "id": "S5401",
+              "code": "5401",
+              "name": "Celleneuve",
+              "lat": 43.6157954175,
+              "lon": 3.8258738475
+            },
+            {
+              "id": "S5563",
+              "code": "5563",
+              "name": "Mosson",
+              "lat": 43.61619786,
+              "lon": 3.819742266
+            },
+            {
+              "id": "S5311",
+              "code": "5311",
+              "name": "Juvignac",
+              "lat": 43.6175236,
+              "lon": 3.80995295333333
+            }
+          ]
+        },
+        {
+          "direction": 1,
+          "headsign": "Pérols Étang de l'Or",
+          "stops": [
+            {
+              "id": "S5311",
+              "code": "5311",
+              "name": "Juvignac",
+              "lat": 43.6175236,
+              "lon": 3.80995295333333
+            },
+            {
+              "id": "S5563",
+              "code": "5563",
+              "name": "Mosson",
+              "lat": 43.61619786,
+              "lon": 3.819742266
+            },
+            {
+              "id": "S5401",
+              "code": "5401",
+              "name": "Celleneuve",
+              "lat": 43.6157954175,
+              "lon": 3.8258738475
+            },
+            {
+              "id": "S5598",
+              "code": "5598",
+              "name": "Pilory",
+              "lat": 43.619553255,
+              "lon": 3.83205364
+            },
+            {
+              "id": "S5498",
+              "code": "5498",
+              "name": "Hôtel du Département",
+              "lat": 43.6219009575,
+              "lon": 3.8350385875
+            },
+            {
+              "id": "S5588",
+              "code": "5588",
+              "name": "Pergola",
+              "lat": 43.61785977,
+              "lon": 3.83943967
+            },
+            {
+              "id": "S5662",
+              "code": "5662",
+              "name": "Tonnelles",
+              "lat": 43.6135848283333,
+              "lon": 3.83892714833333
+            },
+            {
+              "id": "S5510",
+              "code": "5510",
+              "name": "Jules Guesde",
+              "lat": 43.611384635,
+              "lon": 3.846729795
+            },
+            {
+              "id": "S5383",
+              "code": "5383",
+              "name": "Astruc",
+              "lat": 43.610262905,
+              "lon": 3.85493991
+            },
+            {
+              "id": "S5527",
+              "code": "5527",
+              "name": "Les Arceaux",
+              "lat": 43.609947645,
+              "lon": 3.8620145
+            },
+            {
+              "id": "S5610",
+              "code": "5610",
+              "name": "Plan Cabanes",
+              "lat": 43.60855799,
+              "lon": 3.868113755
+            },
+            {
+              "id": "S5636",
+              "code": "5636",
+              "name": "Gambetta - Chaptal",
+              "lat": 43.605921785,
+              "lon": 3.873344125
+            },
+            {
+              "id": "S5570",
+              "code": "5570",
+              "name": "Observatoire",
+              "lat": 43.606385465,
+              "lon": 3.87677107
+            },
+            {
+              "id": "S5917",
+              "code": "5917",
+              "name": "Gare Saint-Roch - République",
+              "lat": 43.60523805,
+              "lon": 3.87969681
+            },
+            {
+              "id": "S5604",
+              "code": "5604",
+              "name": "Place Carnot",
+              "lat": 43.6035434166667,
+              "lon": 3.88410860666667
+            },
+            {
+              "id": "S5677",
+              "code": "5677",
+              "name": "Voltaire",
+              "lat": 43.60371444,
+              "lon": 3.889113075
+            },
+            {
+              "id": "S5918",
+              "code": "5918",
+              "name": "Rives du Lez - Consuls de Mer",
+              "lat": 43.6040132,
+              "lon": 3.893970545
+            },
+            {
+              "id": "S5564",
+              "code": "5564",
+              "name": "Moularès (Hôtel de Ville)",
+              "lat": 43.600614865,
+              "lon": 3.895547875
+            },
+            {
+              "id": "S5614",
+              "code": "5614",
+              "name": "Port Marianne",
+              "lat": 43.6020368866667,
+              "lon": 3.89989776666667
+            },
+            {
+              "id": "S5575",
+              "code": "5575",
+              "name": "Pablo Picasso",
+              "lat": 43.597775425,
+              "lon": 3.903547675
+            },
+            {
+              "id": "S6003",
+              "code": "6003",
+              "name": "Boirargues",
+              "lat": 43.58539693,
+              "lon": 3.920200305
+            },
+            {
+              "id": "S5326",
+              "code": "5326",
+              "name": "Soriech",
+              "lat": 43.582458375,
+              "lon": 3.9261041375
+            },
+            {
+              "id": "S5685",
+              "code": "5685",
+              "name": "EcoPôle",
+              "lat": 43.578066215,
+              "lon": 3.935150865
+            },
+            {
+              "id": "S5687",
+              "code": "5687",
+              "name": "Parc Expo",
+              "lat": 43.5728214625,
+              "lon": 3.9451088375
+            },
+            {
+              "id": "S5688",
+              "code": "5688",
+              "name": "Pérols Centre",
+              "lat": 43.565415335,
+              "lon": 3.95736508
+            },
+            {
+              "id": "S5689",
+              "code": "5689",
+              "name": "Pérols Étang de l'Or",
+              "lat": 43.5575958333333,
+              "lon": 3.96345781
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "code": "4",
+      "name": "MONTPELLIER - Garcia Lorca",
+      "color": "#4B2A0E",
+      "textColor": "#FFFFFF",
+      "directions": [
+        {
+          "direction": 0,
+          "headsign": "Garcia Lorca",
+          "stops": [
+            {
+              "id": "S5470",
+              "code": "5470",
+              "name": "Garcia Lorca",
+              "lat": 43.59121067375,
+              "lon": 3.89046778
+            },
+            {
+              "id": "S5625",
+              "code": "5625",
+              "name": "Restanque",
+              "lat": 43.590363775,
+              "lon": 3.885114215
+            },
+            {
+              "id": "S5643",
+              "code": "5643",
+              "name": "Saint-Martin - Le Jam",
+              "lat": 43.59217106,
+              "lon": 3.880370505
+            },
+            {
+              "id": "S5569",
+              "code": "5569",
+              "name": "Nouveau Saint-Roch",
+              "lat": 43.59936681,
+              "lon": 3.87566651
+            },
+            {
+              "id": "S5629",
+              "code": "5629",
+              "name": "Rondelet",
+              "lat": 43.6033524271429,
+              "lon": 3.87543987
+            },
+            {
+              "id": "S5917",
+              "code": "5917",
+              "name": "Gare Saint-Roch - République",
+              "lat": 43.60523805,
+              "lon": 3.87969681
+            },
+            {
+              "id": "S5570",
+              "code": "5570",
+              "name": "Observatoire",
+              "lat": 43.606385465,
+              "lon": 3.87677107
+            },
+            {
+              "id": "S5639",
+              "code": "5639",
+              "name": "Saint-Guilhem - Courreau",
+              "lat": 43.60798915,
+              "lon": 3.8736781
+            },
+            {
+              "id": "S5590",
+              "code": "5590",
+              "name": "Peyrou - Arc de Triomphe",
+              "lat": 43.6118172725,
+              "lon": 3.871881935
+            },
+            {
+              "id": "S5837",
+              "code": "5837",
+              "name": "Albert 1er - Jardin des Plantes",
+              "lat": 43.6151526525,
+              "lon": 3.8734501775
+            },
+            {
+              "id": "S5532",
+              "code": "5532",
+              "name": "Louis Blanc - Agora de la Danse",
+              "lat": 43.61474441,
+              "lon": 3.87813478
+            },
+            {
+              "id": "S5431",
+              "code": "5431",
+              "name": "Corum",
+              "lat": 43.614335335,
+              "lon": 3.88191916
+            },
+            {
+              "id": "S5528",
+              "code": "5528",
+              "name": "Les Aubes",
+              "lat": 43.6138069625,
+              "lon": 3.888530555
+            },
+            {
+              "id": "S5613",
+              "code": "5613",
+              "name": "Pompignane",
+              "lat": 43.6125887,
+              "lon": 3.894952895
+            },
+            {
+              "id": "S5606",
+              "code": "5606",
+              "name": "Place de l'Europe",
+              "lat": 43.60750344625,
+              "lon": 3.89381363125
+            },
+            {
+              "id": "S5627",
+              "code": "5627",
+              "name": "Rives du Lez",
+              "lat": 43.604228985,
+              "lon": 3.894904245
+            },
+            {
+              "id": "S5479",
+              "code": "5479",
+              "name": "Georges Frêche - Hôtel de Ville",
+              "lat": 43.59945389,
+              "lon": 3.89501522
+            },
+            {
+              "id": "S5514",
+              "code": "5514",
+              "name": "La Rauze",
+              "lat": 43.593529685,
+              "lon": 3.89595445
+            },
+            {
+              "id": "S5470",
+              "code": "5470",
+              "name": "Garcia Lorca",
+              "lat": 43.59121067375,
+              "lon": 3.89046778
+            }
+          ]
+        },
+        {
+          "direction": 1,
+          "headsign": "Garcia Lorca",
+          "stops": [
+            {
+              "id": "S5470",
+              "code": "5470",
+              "name": "Garcia Lorca",
+              "lat": 43.59121067375,
+              "lon": 3.89046778
+            },
+            {
+              "id": "S5514",
+              "code": "5514",
+              "name": "La Rauze",
+              "lat": 43.593529685,
+              "lon": 3.89595445
+            },
+            {
+              "id": "S5479",
+              "code": "5479",
+              "name": "Georges Frêche - Hôtel de Ville",
+              "lat": 43.59945389,
+              "lon": 3.89501522
+            },
+            {
+              "id": "S5627",
+              "code": "5627",
+              "name": "Rives du Lez",
+              "lat": 43.604228985,
+              "lon": 3.894904245
+            },
+            {
+              "id": "S5606",
+              "code": "5606",
+              "name": "Place de l'Europe",
+              "lat": 43.60750344625,
+              "lon": 3.89381363125
+            },
+            {
+              "id": "S5613",
+              "code": "5613",
+              "name": "Pompignane",
+              "lat": 43.6125887,
+              "lon": 3.894952895
+            },
+            {
+              "id": "S5528",
+              "code": "5528",
+              "name": "Les Aubes",
+              "lat": 43.6138069625,
+              "lon": 3.888530555
+            },
+            {
+              "id": "S5431",
+              "code": "5431",
+              "name": "Corum",
+              "lat": 43.614335335,
+              "lon": 3.88191916
+            },
+            {
+              "id": "S5532",
+              "code": "5532",
+              "name": "Louis Blanc - Agora de la Danse",
+              "lat": 43.61474441,
+              "lon": 3.87813478
+            },
+            {
+              "id": "S5837",
+              "code": "5837",
+              "name": "Albert 1er - Jardin des Plantes",
+              "lat": 43.6151526525,
+              "lon": 3.8734501775
+            },
+            {
+              "id": "S5590",
+              "code": "5590",
+              "name": "Peyrou - Arc de Triomphe",
+              "lat": 43.6118172725,
+              "lon": 3.871881935
+            },
+            {
+              "id": "S5639",
+              "code": "5639",
+              "name": "Saint-Guilhem - Courreau",
+              "lat": 43.60798915,
+              "lon": 3.8736781
+            },
+            {
+              "id": "S5570",
+              "code": "5570",
+              "name": "Observatoire",
+              "lat": 43.606385465,
+              "lon": 3.87677107
+            },
+            {
+              "id": "S5917",
+              "code": "5917",
+              "name": "Gare Saint-Roch - République",
+              "lat": 43.60523805,
+              "lon": 3.87969681
+            },
+            {
+              "id": "S5629",
+              "code": "5629",
+              "name": "Rondelet",
+              "lat": 43.6033524271429,
+              "lon": 3.87543987
+            },
+            {
+              "id": "S5569",
+              "code": "5569",
+              "name": "Nouveau Saint-Roch",
+              "lat": 43.59936681,
+              "lon": 3.87566651
+            },
+            {
+              "id": "S5643",
+              "code": "5643",
+              "name": "Saint-Martin - Le Jam",
+              "lat": 43.59217106,
+              "lon": 3.880370505
+            },
+            {
+              "id": "S5625",
+              "code": "5625",
+              "name": "Restanque",
+              "lat": 43.590363775,
+              "lon": 3.885114215
+            },
+            {
+              "id": "S5470",
+              "code": "5470",
+              "name": "Garcia Lorca",
+              "lat": 43.59121067375,
+              "lon": 3.89046778
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "code": "5",
+      "name": "Lavérune - Clapiers",
+      "color": "#6b7280",
+      "textColor": "#ffffff",
+      "directions": [
+        {
+          "direction": 0,
+          "headsign": "Clapiers",
+          "stops": [
+            {
+              "id": "S6002",
+              "code": "6002",
+              "name": "Grés de Montpellier",
+              "lat": 43.59288874,
+              "lon": 3.823198995
+            },
+            {
+              "id": "S5993",
+              "code": "5993",
+              "name": "Parc des Bouisses",
+              "lat": 43.592717565,
+              "lon": 3.8292642175
+            },
+            {
+              "id": "S5994",
+              "code": "5994",
+              "name": "Parc Font-Colombe",
+              "lat": 43.59543125,
+              "lon": 3.83714289
+            },
+            {
+              "id": "S5991",
+              "code": "5991",
+              "name": "Parc Bagatelle",
+              "lat": 43.593643165,
+              "lon": 3.842259745
+            },
+            {
+              "id": "S5990",
+              "code": "5990",
+              "name": "Ovalie",
+              "lat": 43.59140579,
+              "lon": 3.847667415
+            },
+            {
+              "id": "S5679",
+              "code": "5679",
+              "name": "Yves du Manoir",
+              "lat": 43.59506479,
+              "lon": 3.849897785
+            },
+            {
+              "id": "S5447",
+              "code": "5447",
+              "name": "Estanove",
+              "lat": 43.600704585,
+              "lon": 3.849335895
+            },
+            {
+              "id": "S5966",
+              "code": "5966",
+              "name": "Chamberte - Les Roses",
+              "lat": 43.6028499766667,
+              "lon": 3.85522536
+            },
+            {
+              "id": "S5982",
+              "code": "5982",
+              "name": "Cité Créative - Parc Montcalm",
+              "lat": 43.601663715,
+              "lon": 3.86201599
+            },
+            {
+              "id": "S5609",
+              "code": "5609",
+              "name": "Place du 8 Mai 1945",
+              "lat": 43.6012703025,
+              "lon": 3.86822766
+            },
+            {
+              "id": "S5992",
+              "code": "5992",
+              "name": "Parc Clémenceau",
+              "lat": 43.603324275,
+              "lon": 3.872043385
+            },
+            {
+              "id": "S5469",
+              "code": "5469",
+              "name": "Gambetta",
+              "lat": 43.60501132,
+              "lon": 3.87447014
+            },
+            {
+              "id": "S5639",
+              "code": "5639",
+              "name": "Saint-Guilhem - Courreau",
+              "lat": 43.60798915,
+              "lon": 3.8736781
+            },
+            {
+              "id": "S5590",
+              "code": "5590",
+              "name": "Peyrou - Arc de Triomphe",
+              "lat": 43.6118172725,
+              "lon": 3.871881935
+            },
+            {
+              "id": "S5837",
+              "code": "5837",
+              "name": "Albert 1er - Jardin des Plantes",
+              "lat": 43.6151526525,
+              "lon": 3.8734501775
+            },
+            {
+              "id": "S5603",
+              "code": "5603",
+              "name": "Albert 1er - Saint-Charles",
+              "lat": 43.616509605,
+              "lon": 3.874117735
+            },
+            {
+              "id": "S5660",
+              "code": "5660",
+              "name": "Stade Philippidès",
+              "lat": 43.618997735,
+              "lon": 3.869507345
+            },
+            {
+              "id": "S5930",
+              "code": "5930",
+              "name": "Boutonnet - Cité des Arts",
+              "lat": 43.622095565,
+              "lon": 3.8683344625
+            },
+            {
+              "id": "S5637",
+              "code": "5637",
+              "name": "Saint-Éloi - Docteur Pezet",
+              "lat": 43.6267990866667,
+              "lon": 3.866241245
+            },
+            {
+              "id": "S5999",
+              "code": "5999",
+              "name": "Université Paul Valéry",
+              "lat": 43.62997699,
+              "lon": 3.869628795
+            },
+            {
+              "id": "S5997",
+              "code": "5997",
+              "name": "Pôle Chimie Balard",
+              "lat": 43.63436429,
+              "lon": 3.867862135
+            },
+            {
+              "id": "S5983",
+              "code": "5983",
+              "name": "CNRS - Zoo de Lunaret",
+              "lat": 43.638215275,
+              "lon": 3.8658766
+            },
+            {
+              "id": "S5611",
+              "code": "5611",
+              "name": "Plan des 4 Seigneurs",
+              "lat": 43.64420664,
+              "lon": 3.86112245
+            },
+            {
+              "id": "S5980",
+              "code": "5980",
+              "name": "Agropolis",
+              "lat": 43.645962205,
+              "lon": 3.86858484
+            },
+            {
+              "id": "S5979",
+              "code": "5979",
+              "name": "Montferrier-sur-Lez",
+              "lat": 43.651343416,
+              "lon": 3.86732401
+            },
+            {
+              "id": "S5974",
+              "code": "5974",
+              "name": "Clapiers",
+              "lat": 43.65354756,
+              "lon": 3.872796294
+            }
+          ]
+        },
+        {
+          "direction": 1,
+          "headsign": "Grés de Montpellier",
+          "stops": [
+            {
+              "id": "S5974",
+              "code": "5974",
+              "name": "Clapiers",
+              "lat": 43.65354756,
+              "lon": 3.872796294
+            },
+            {
+              "id": "S5979",
+              "code": "5979",
+              "name": "Montferrier-sur-Lez",
+              "lat": 43.651343416,
+              "lon": 3.86732401
+            },
+            {
+              "id": "S5980",
+              "code": "5980",
+              "name": "Agropolis",
+              "lat": 43.645962205,
+              "lon": 3.86858484
+            },
+            {
+              "id": "S5611",
+              "code": "5611",
+              "name": "Plan des 4 Seigneurs",
+              "lat": 43.64420664,
+              "lon": 3.86112245
+            },
+            {
+              "id": "S5983",
+              "code": "5983",
+              "name": "CNRS - Zoo de Lunaret",
+              "lat": 43.638215275,
+              "lon": 3.8658766
+            },
+            {
+              "id": "S5997",
+              "code": "5997",
+              "name": "Pôle Chimie Balard",
+              "lat": 43.63436429,
+              "lon": 3.867862135
+            },
+            {
+              "id": "S5999",
+              "code": "5999",
+              "name": "Université Paul Valéry",
+              "lat": 43.62997699,
+              "lon": 3.869628795
+            },
+            {
+              "id": "S5637",
+              "code": "5637",
+              "name": "Saint-Éloi - Docteur Pezet",
+              "lat": 43.6267990866667,
+              "lon": 3.866241245
+            },
+            {
+              "id": "S5930",
+              "code": "5930",
+              "name": "Boutonnet - Cité des Arts",
+              "lat": 43.622095565,
+              "lon": 3.8683344625
+            },
+            {
+              "id": "S5660",
+              "code": "5660",
+              "name": "Stade Philippidès",
+              "lat": 43.618997735,
+              "lon": 3.869507345
+            },
+            {
+              "id": "S5603",
+              "code": "5603",
+              "name": "Albert 1er - Saint-Charles",
+              "lat": 43.616509605,
+              "lon": 3.874117735
+            },
+            {
+              "id": "S5837",
+              "code": "5837",
+              "name": "Albert 1er - Jardin des Plantes",
+              "lat": 43.6151526525,
+              "lon": 3.8734501775
+            },
+            {
+              "id": "S5590",
+              "code": "5590",
+              "name": "Peyrou - Arc de Triomphe",
+              "lat": 43.6118172725,
+              "lon": 3.871881935
+            },
+            {
+              "id": "S5639",
+              "code": "5639",
+              "name": "Saint-Guilhem - Courreau",
+              "lat": 43.60798915,
+              "lon": 3.8736781
+            },
+            {
+              "id": "S5636",
+              "code": "5636",
+              "name": "Gambetta - Chaptal",
+              "lat": 43.605921785,
+              "lon": 3.873344125
+            },
+            {
+              "id": "S5992",
+              "code": "5992",
+              "name": "Parc Clémenceau",
+              "lat": 43.603324275,
+              "lon": 3.872043385
+            },
+            {
+              "id": "S5609",
+              "code": "5609",
+              "name": "Place du 8 Mai 1945",
+              "lat": 43.6012703025,
+              "lon": 3.86822766
+            },
+            {
+              "id": "S5982",
+              "code": "5982",
+              "name": "Cité Créative - Parc Montcalm",
+              "lat": 43.601663715,
+              "lon": 3.86201599
+            },
+            {
+              "id": "S5966",
+              "code": "5966",
+              "name": "Chamberte - Les Roses",
+              "lat": 43.6028499766667,
+              "lon": 3.85522536
+            },
+            {
+              "id": "S5447",
+              "code": "5447",
+              "name": "Estanove",
+              "lat": 43.600704585,
+              "lon": 3.849335895
+            },
+            {
+              "id": "S5679",
+              "code": "5679",
+              "name": "Yves du Manoir",
+              "lat": 43.59506479,
+              "lon": 3.849897785
+            },
+            {
+              "id": "S5990",
+              "code": "5990",
+              "name": "Ovalie",
+              "lat": 43.59140579,
+              "lon": 3.847667415
+            },
+            {
+              "id": "S5991",
+              "code": "5991",
+              "name": "Parc Bagatelle",
+              "lat": 43.593643165,
+              "lon": 3.842259745
+            },
+            {
+              "id": "S5994",
+              "code": "5994",
+              "name": "Parc Font-Colombe",
+              "lat": 43.59543125,
+              "lon": 3.83714289
+            },
+            {
+              "id": "S5993",
+              "code": "5993",
+              "name": "Parc des Bouisses",
+              "lat": 43.592717565,
+              "lon": 3.8292642175
+            },
+            {
+              "id": "S6002",
+              "code": "6002",
+              "name": "Grés de Montpellier",
+              "lat": 43.59288874,
+              "lon": 3.823198995
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "stops": [
+    {
+      "id": "S5980",
+      "code": "5980",
+      "name": "Agropolis",
+      "lat": 43.645962205,
+      "lon": 3.86858484,
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "S5368",
+      "code": "5368",
+      "name": "Aiguelongue",
+      "lat": 43.626246105,
+      "lon": 3.88338001,
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "S5837",
+      "code": "5837",
+      "name": "Albert 1er - Jardin des Plantes",
+      "lat": 43.6151526525,
+      "lon": 3.8734501775,
+      "lines": [
+        "4",
+        "5"
+      ]
+    },
+    {
+      "id": "S5603",
+      "code": "5603",
+      "name": "Albert 1er - Saint-Charles",
+      "lat": 43.616509605,
+      "lon": 3.874117735,
+      "lines": [
+        "1",
+        "5"
+      ]
+    },
+    {
+      "id": "S5378",
+      "code": "5378",
+      "name": "Antigone",
+      "lat": 43.60858596,
+      "lon": 3.88666595,
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "S5383",
+      "code": "5383",
+      "name": "Astruc",
+      "lat": 43.610262905,
+      "lon": 3.85493991,
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "S5170",
+      "code": "5170",
+      "name": "Aube Rouge",
+      "lat": 43.63891032,
+      "lon": 3.9245285075,
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "S5387",
+      "code": "5387",
+      "name": "Beaux-Arts",
+      "lat": 43.61699137,
+      "lon": 3.88352225,
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "S6003",
+      "code": "6003",
+      "name": "Boirargues",
+      "lat": 43.58539693,
+      "lon": 3.920200305,
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "S5930",
+      "code": "5930",
+      "name": "Boutonnet - Cité des Arts",
+      "lat": 43.622095565,
+      "lon": 3.8683344625,
+      "lines": [
+        "1",
+        "5"
+      ]
+    },
+    {
+      "id": "S5401",
+      "code": "5401",
+      "name": "Celleneuve",
+      "lat": 43.6157954175,
+      "lon": 3.8258738475,
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "S5176",
+      "code": "5176",
+      "name": "Centurions",
+      "lat": 43.63279339,
+      "lon": 3.91572226,
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "S5966",
+      "code": "5966",
+      "name": "Chamberte - Les Roses",
+      "lat": 43.6028499766667,
+      "lon": 3.85522536,
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "S5177",
+      "code": "5177",
+      "name": "Charles de Gaulle",
+      "lat": 43.62818731875,
+      "lon": 3.89743143375,
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "S5409",
+      "code": "5409",
+      "name": "Château d'Ô",
+      "lat": 43.631552576,
+      "lon": 3.842886754,
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "S5982",
+      "code": "5982",
+      "name": "Cité Créative - Parc Montcalm",
+      "lat": 43.601663715,
+      "lon": 3.86201599,
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "S5181",
+      "code": "5181",
+      "name": "Clairval",
+      "lat": 43.63017014,
+      "lon": 3.90260486,
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "S5974",
+      "code": "5974",
+      "name": "Clapiers",
+      "lat": 43.65354756,
+      "lon": 3.872796294,
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "S5983",
+      "code": "5983",
+      "name": "CNRS - Zoo de Lunaret",
+      "lat": 43.638215275,
+      "lon": 3.8658766,
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "S5426",
+      "code": "5426",
+      "name": "Comédie",
+      "lat": 43.60839211,
+      "lon": 3.879788195,
+      "lines": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": "S5431",
+      "code": "5431",
+      "name": "Corum",
+      "lat": 43.614335335,
+      "lon": 3.88191916,
+      "lines": [
+        "1",
+        "2",
+        "4"
+      ]
+    },
+    {
+      "id": "S5433",
+      "code": "5433",
+      "name": "Croix d'Argent",
+      "lat": 43.592409285,
+      "lon": 3.86645031,
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "S5441",
+      "code": "5441",
+      "name": "Du Guesclin",
+      "lat": 43.6071379,
+      "lon": 3.88326162,
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "S5685",
+      "code": "5685",
+      "name": "EcoPôle",
+      "lat": 43.578066215,
+      "lon": 3.935150865,
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "S5447",
+      "code": "5447",
+      "name": "Estanove",
+      "lat": 43.600704585,
+      "lon": 3.849335895,
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "S5453",
+      "code": "5453",
+      "name": "Euromédecine",
+      "lat": 43.639056212,
+      "lon": 3.828156562,
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "S5469",
+      "code": "5469",
+      "name": "Gambetta",
+      "lat": 43.60501132,
+      "lon": 3.87447014,
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "S5636",
+      "code": "5636",
+      "name": "Gambetta - Chaptal",
+      "lat": 43.605921785,
+      "lon": 3.873344125,
+      "lines": [
+        "3",
+        "5"
+      ]
+    },
+    {
+      "id": "S5470",
+      "code": "5470",
+      "name": "Garcia Lorca",
+      "lat": 43.59121067375,
+      "lon": 3.89046778,
+      "lines": [
+        "4"
+      ]
+    },
+    {
+      "id": "S5472",
+      "code": "5472",
+      "name": "Gare Saint-Roch",
+      "lat": 43.60577034,
+      "lon": 3.880193665,
+      "lines": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": "S5917",
+      "code": "5917",
+      "name": "Gare Saint-Roch - République",
+      "lat": 43.60523805,
+      "lon": 3.87969681,
+      "lines": [
+        "3",
+        "4"
+      ]
+    },
+    {
+      "id": "S5844",
+      "code": "5844",
+      "name": "Gare Sud de France",
+      "lat": 43.596779065,
+      "lon": 3.92210832,
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "S5479",
+      "code": "5479",
+      "name": "Georges Frêche - Hôtel de Ville",
+      "lat": 43.59945389,
+      "lon": 3.89501522,
+      "lines": [
+        "4"
+      ]
+    },
+    {
+      "id": "S5186",
+      "code": "5186",
+      "name": "Georges Pompidou",
+      "lat": 43.649320265,
+      "lon": 3.921032665,
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "S6002",
+      "code": "6002",
+      "name": "Grés de Montpellier",
+      "lat": 43.59288874,
+      "lon": 3.823198995,
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "S5489",
+      "code": "5489",
+      "name": "Halles de la Paillade",
+      "lat": 43.62756962,
+      "lon": 3.8175179,
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "S5490",
+      "code": "5490",
+      "name": "Hauts de Massane",
+      "lat": 43.63620974,
+      "lon": 3.8226899125,
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "S5496",
+      "code": "5496",
+      "name": "Hôpital Lapeyronie",
+      "lat": 43.631668675,
+      "lon": 3.852600545,
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "S5498",
+      "code": "5498",
+      "name": "Hôtel du Département",
+      "lat": 43.6219009575,
+      "lon": 3.8350385875,
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "S5291",
+      "code": "5291",
+      "name": "Jacou",
+      "lat": 43.65460066,
+      "lon": 3.91290609333333,
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "S5509",
+      "code": "5509",
+      "name": "Jeu de Mail des Abbés",
+      "lat": 43.620417485,
+      "lon": 3.88407908,
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "S5510",
+      "code": "5510",
+      "name": "Jules Guesde",
+      "lat": 43.611384635,
+      "lon": 3.846729795,
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "S5311",
+      "code": "5311",
+      "name": "Juvignac",
+      "lat": 43.6175236,
+      "lon": 3.80995295333333,
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "S5751",
+      "code": "5751",
+      "name": "La Condamine",
+      "lat": 43.57180155,
+      "lon": 3.844330265,
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "S5189",
+      "code": "5189",
+      "name": "La Galine",
+      "lat": 43.6314524,
+      "lon": 3.90903264,
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "S5514",
+      "code": "5514",
+      "name": "La Rauze",
+      "lat": 43.593529685,
+      "lon": 3.89595445,
+      "lines": [
+        "4"
+      ]
+    },
+    {
+      "id": "S5523",
+      "code": "5523",
+      "name": "Lemasson",
+      "lat": 43.59364979,
+      "lon": 3.873113035,
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "S5524",
+      "code": "5524",
+      "name": "Léon Blum",
+      "lat": 43.6090545566667,
+      "lon": 3.89013867,
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "S5527",
+      "code": "5527",
+      "name": "Les Arceaux",
+      "lat": 43.609947645,
+      "lon": 3.8620145,
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "S5528",
+      "code": "5528",
+      "name": "Les Aubes",
+      "lat": 43.6138069625,
+      "lon": 3.888530555,
+      "lines": [
+        "4"
+      ]
+    },
+    {
+      "id": "S5532",
+      "code": "5532",
+      "name": "Louis Blanc - Agora de la Danse",
+      "lat": 43.61474441,
+      "lon": 3.87813478,
+      "lines": [
+        "1",
+        "4"
+      ]
+    },
+    {
+      "id": "S5544",
+      "code": "5544",
+      "name": "Malbosc - Domaine d'Ô",
+      "lat": 43.63472618,
+      "lon": 3.833311225,
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "S5555",
+      "code": "5555",
+      "name": "Mas Drevon",
+      "lat": 43.59577549,
+      "lon": 3.86806491,
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "S5559",
+      "code": "5559",
+      "name": "Millénaire",
+      "lat": 43.6033696125,
+      "lon": 3.9100256375,
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "S5560",
+      "code": "5560",
+      "name": "Mondial 98",
+      "lat": 43.60277494,
+      "lon": 3.904080655,
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "S5979",
+      "code": "5979",
+      "name": "Montferrier-sur-Lez",
+      "lat": 43.651343416,
+      "lon": 3.86732401,
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "S5563",
+      "code": "5563",
+      "name": "Mosson",
+      "lat": 43.61619786,
+      "lon": 3.819742266,
+      "lines": [
+        "1",
+        "3"
+      ]
+    },
+    {
+      "id": "S5564",
+      "code": "5564",
+      "name": "Moularès (Hôtel de Ville)",
+      "lat": 43.600614865,
+      "lon": 3.895547875,
+      "lines": [
+        "1",
+        "3"
+      ]
+    },
+    {
+      "id": "S5196",
+      "code": "5196",
+      "name": "Notre-Dame de Sablassou",
+      "lat": 43.6341014316667,
+      "lon": 3.92248556,
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "S5569",
+      "code": "5569",
+      "name": "Nouveau Saint-Roch",
+      "lat": 43.59936681,
+      "lon": 3.87566651,
+      "lines": [
+        "2",
+        "4"
+      ]
+    },
+    {
+      "id": "S5570",
+      "code": "5570",
+      "name": "Observatoire",
+      "lat": 43.606385465,
+      "lon": 3.87677107,
+      "lines": [
+        "3",
+        "4"
+      ]
+    },
+    {
+      "id": "S5571",
+      "code": "5571",
+      "name": "Occitanie Hopitaux - Facultés",
+      "lat": 43.634610666,
+      "lon": 3.848448088,
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "S5572",
+      "code": "5572",
+      "name": "Odysseum",
+      "lat": 43.6040785225,
+      "lon": 3.919818165,
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "S5990",
+      "code": "5990",
+      "name": "Ovalie",
+      "lat": 43.59140579,
+      "lon": 3.847667415,
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "S5575",
+      "code": "5575",
+      "name": "Pablo Picasso",
+      "lat": 43.597775425,
+      "lon": 3.903547675,
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "S5991",
+      "code": "5991",
+      "name": "Parc Bagatelle",
+      "lat": 43.593643165,
+      "lon": 3.842259745,
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "S5992",
+      "code": "5992",
+      "name": "Parc Clémenceau",
+      "lat": 43.603324275,
+      "lon": 3.872043385,
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "S5993",
+      "code": "5993",
+      "name": "Parc des Bouisses",
+      "lat": 43.592717565,
+      "lon": 3.8292642175,
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "S5687",
+      "code": "5687",
+      "name": "Parc Expo",
+      "lat": 43.5728214625,
+      "lon": 3.9451088375,
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "S5994",
+      "code": "5994",
+      "name": "Parc Font-Colombe",
+      "lat": 43.59543125,
+      "lon": 3.83714289,
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "S5588",
+      "code": "5588",
+      "name": "Pergola",
+      "lat": 43.61785977,
+      "lon": 3.83943967,
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "S5688",
+      "code": "5688",
+      "name": "Pérols Centre",
+      "lat": 43.565415335,
+      "lon": 3.95736508,
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "S5689",
+      "code": "5689",
+      "name": "Pérols Étang de l'Or",
+      "lat": 43.5575958333333,
+      "lon": 3.96345781,
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "S5590",
+      "code": "5590",
+      "name": "Peyrou - Arc de Triomphe",
+      "lat": 43.6118172725,
+      "lon": 3.871881935,
+      "lines": [
+        "4",
+        "5"
+      ]
+    },
+    {
+      "id": "S5598",
+      "code": "5598",
+      "name": "Pilory",
+      "lat": 43.619553255,
+      "lon": 3.83205364,
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "S5604",
+      "code": "5604",
+      "name": "Place Carnot",
+      "lat": 43.6035434166667,
+      "lon": 3.88410860666667,
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "S5605",
+      "code": "5605",
+      "name": "Place de France",
+      "lat": 43.603761216,
+      "lon": 3.915571742,
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "S5606",
+      "code": "5606",
+      "name": "Place de l'Europe",
+      "lat": 43.60750344625,
+      "lon": 3.89381363125,
+      "lines": [
+        "1",
+        "4"
+      ]
+    },
+    {
+      "id": "S5609",
+      "code": "5609",
+      "name": "Place du 8 Mai 1945",
+      "lat": 43.6012703025,
+      "lon": 3.86822766,
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "S5610",
+      "code": "5610",
+      "name": "Plan Cabanes",
+      "lat": 43.60855799,
+      "lon": 3.868113755,
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "S5611",
+      "code": "5611",
+      "name": "Plan des 4 Seigneurs",
+      "lat": 43.64420664,
+      "lon": 3.86112245,
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "S5997",
+      "code": "5997",
+      "name": "Pôle Chimie Balard",
+      "lat": 43.63436429,
+      "lon": 3.867862135,
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "S5613",
+      "code": "5613",
+      "name": "Pompignane",
+      "lat": 43.6125887,
+      "lon": 3.894952895,
+      "lines": [
+        "4"
+      ]
+    },
+    {
+      "id": "S5614",
+      "code": "5614",
+      "name": "Port Marianne",
+      "lat": 43.6020368866667,
+      "lon": 3.89989776666667,
+      "lines": [
+        "1",
+        "3"
+      ]
+    },
+    {
+      "id": "S5625",
+      "code": "5625",
+      "name": "Restanque",
+      "lat": 43.590363775,
+      "lon": 3.885114215,
+      "lines": [
+        "4"
+      ]
+    },
+    {
+      "id": "S5627",
+      "code": "5627",
+      "name": "Rives du Lez",
+      "lat": 43.604228985,
+      "lon": 3.894904245,
+      "lines": [
+        "1",
+        "4"
+      ]
+    },
+    {
+      "id": "S5918",
+      "code": "5918",
+      "name": "Rives du Lez - Consuls de Mer",
+      "lat": 43.6040132,
+      "lon": 3.893970545,
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "S5629",
+      "code": "5629",
+      "name": "Rondelet",
+      "lat": 43.6033524271429,
+      "lon": 3.87543987,
+      "lines": [
+        "2",
+        "4"
+      ]
+    },
+    {
+      "id": "S5633",
+      "code": "5633",
+      "name": "Sabines",
+      "lat": 43.5837803125,
+      "lon": 3.860175275,
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "S5635",
+      "code": "5635",
+      "name": "Saint-Cléophas",
+      "lat": 43.5948868375,
+      "lon": 3.8757313725,
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "S5637",
+      "code": "5637",
+      "name": "Saint-Éloi - Docteur Pezet",
+      "lat": 43.6267990866667,
+      "lon": 3.866241245,
+      "lines": [
+        "1",
+        "5"
+      ]
+    },
+    {
+      "id": "S5639",
+      "code": "5639",
+      "name": "Saint-Guilhem - Courreau",
+      "lat": 43.60798915,
+      "lon": 3.8736781,
+      "lines": [
+        "4",
+        "5"
+      ]
+    },
+    {
+      "id": "S5760",
+      "code": "5760",
+      "name": "Saint-Jean de Védas Centre",
+      "lat": 43.5749465866667,
+      "lon": 3.83049303333333,
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "S5761",
+      "code": "5761",
+      "name": "Saint-Jean le Sec",
+      "lat": 43.5709291775,
+      "lon": 3.8380606075,
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "S5642",
+      "code": "5642",
+      "name": "Saint-Lazare",
+      "lat": 43.6268706683333,
+      "lon": 3.88878552666667,
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "S5643",
+      "code": "5643",
+      "name": "Saint-Martin - Le Jam",
+      "lat": 43.59217106,
+      "lon": 3.880370505,
+      "lines": [
+        "4"
+      ]
+    },
+    {
+      "id": "S5646",
+      "code": "5646",
+      "name": "Saint-Paul",
+      "lat": 43.6306804,
+      "lon": 3.82110108,
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "S5326",
+      "code": "5326",
+      "name": "Soriech",
+      "lat": 43.582458375,
+      "lon": 3.9261041375,
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "S5659",
+      "code": "5659",
+      "name": "Stade de la Mosson",
+      "lat": 43.62126521,
+      "lon": 3.817385375,
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "S5660",
+      "code": "5660",
+      "name": "Stade Philippidès",
+      "lat": 43.618997735,
+      "lon": 3.869507345,
+      "lines": [
+        "1",
+        "5"
+      ]
+    },
+    {
+      "id": "S5662",
+      "code": "5662",
+      "name": "Tonnelles",
+      "lat": 43.6135848283333,
+      "lon": 3.83892714833333,
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "S5665",
+      "code": "5665",
+      "name": "Université Montpellier - Triolet",
+      "lat": 43.6291673375,
+      "lon": 3.8613954675,
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "S5999",
+      "code": "5999",
+      "name": "Université Paul Valéry",
+      "lat": 43.62997699,
+      "lon": 3.869628795,
+      "lines": [
+        "5"
+      ]
+    },
+    {
+      "id": "S5818",
+      "code": "5818",
+      "name": "Via Domitia",
+      "lat": 43.6466184475,
+      "lon": 3.9299363775,
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "S5766",
+      "code": "5766",
+      "name": "Victoire 2",
+      "lat": 43.57519402,
+      "lon": 3.84987247,
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "S5672",
+      "code": "5672",
+      "name": "Villeneuve d'Angoulême",
+      "lat": 43.588783935,
+      "lon": 3.86567923,
+      "lines": [
+        "2"
+      ]
+    },
+    {
+      "id": "S5677",
+      "code": "5677",
+      "name": "Voltaire",
+      "lat": 43.60371444,
+      "lon": 3.889113075,
+      "lines": [
+        "3"
+      ]
+    },
+    {
+      "id": "S5679",
+      "code": "5679",
+      "name": "Yves du Manoir",
+      "lat": 43.59506479,
+      "lon": 3.849897785,
+      "lines": [
+        "5"
+      ]
+    }
+  ],
+  "footpaths": [
+    {
+      "from": "S5378",
+      "to": "S5524"
+    },
+    {
+      "from": "S5441",
+      "to": "S5472"
+    },
+    {
+      "from": "S5472",
+      "to": "S5426"
+    },
+    {
+      "from": "S5532",
+      "to": "S5431"
+    },
+    {
+      "from": "S5523",
+      "to": "S5635"
+    },
+    {
+      "from": "S5918",
+      "to": "S5627"
+    },
+    {
+      "from": "S5636",
+      "to": "S5629"
+    },
+    {
+      "from": "S5570",
+      "to": "S5629"
+    },
+    {
+      "from": "S5570",
+      "to": "S5472"
+    },
+    {
+      "from": "S5570",
+      "to": "S5636"
+    },
+    {
+      "from": "S5917",
+      "to": "S5472"
+    },
+    {
+      "from": "S5917",
+      "to": "S5570"
+    },
+    {
+      "from": "S5479",
+      "to": "S5564"
+    },
+    {
+      "from": "S5639",
+      "to": "S5570"
+    },
+    {
+      "from": "S5639",
+      "to": "S5636"
+    },
+    {
+      "from": "S5590",
+      "to": "S5837"
+    },
+    {
+      "from": "S5837",
+      "to": "S5603"
+    },
+    {
+      "from": "S5614",
+      "to": "S5560"
+    },
+    {
+      "from": "S5572",
+      "to": "S5605"
+    },
+    {
+      "from": "S5606",
+      "to": "S5524"
+    },
+    {
+      "from": "S5930",
+      "to": "S5660"
+    },
+    {
+      "from": "S5992",
+      "to": "S5629"
+    },
+    {
+      "from": "S5992",
+      "to": "S5636"
+    },
+    {
+      "from": "S5469",
+      "to": "S5629"
+    },
+    {
+      "from": "S5469",
+      "to": "S5636"
+    },
+    {
+      "from": "S5469",
+      "to": "S5570"
+    }
+  ]
+}

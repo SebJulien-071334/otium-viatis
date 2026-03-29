@@ -63,12 +63,14 @@ for (const st of stopTimes) {
   tripStopsRaw[st.trip_id].push({ stop_id: st.stop_id, seq: Number(st.stop_sequence) })
 }
 
-// Trip représentatif = celui avec le plus d'arrêts par route+direction
-const repTrips = {} // "routeId-directionId" → trip_id
-const repTripCount = {} // "routeId-directionId" → nb arrêts du trip choisi
+// Trip représentatif = 1 par headsign distinct par route+direction (gère branches L3)
+const repTrips = {} // "routeId-directionId-headsign" → trip_id
+const repTripCount = {} // "routeId-directionId-headsign" → nb arrêts
+const tripHeadsign = {} // trip_id → trip_headsign (vrai headsign GTFS pour matching CSV)
 for (const t of trips) {
   if (!routeTramIds.has(t.route_id)) continue
-  const key = `${t.route_id}-${t.direction_id}`
+  tripHeadsign[t.trip_id] = t.trip_headsign
+  const key = `${t.route_id}-${t.direction_id}-${t.trip_headsign}`
   const count = tripStopCount[t.trip_id] ?? 0
   if (!repTrips[key] || count > (repTripCount[key] ?? 0)) {
     repTrips[key] = t.trip_id
@@ -92,25 +94,36 @@ for (const tid of Object.keys(tripStops)) {
 // 5. Construire le réseau
 const network = routes.map(route => {
   const directions = [0, 1].map(dir => {
-    const key = `${route.route_id}-${dir}`
-    const tripId = repTrips[key]
-    if (!tripId || !tripStops[tripId]) return null
-    const stops = tripStops[tripId].map(({ stop_id }) => {
-      // Remonter au stop_area si nécessaire
-      const areaId = pointToArea[stop_id] ?? stop_id
-      const stop = stopMap[areaId] ?? stopMap[stop_id]
-      if (!stop) return null
-      return {
-        id: stop.stop_id,
-        code: stop.stop_code,
-        name: stop.stop_name,
-        lat: parseFloat(stop.stop_lat),
-        lon: parseFloat(stop.stop_lon),
+    // Collecter tous les trips de cette route+direction (branches incluses)
+    const keys = Object.keys(repTrips).filter(k => k.startsWith(`${route.route_id}-${dir}-`))
+    if (keys.length === 0) return null
+
+    // Merger les stops de toutes les branches (ordre du trip le plus long en premier)
+    const keysSorted = keys.sort((a, b) => (repTripCount[b] ?? 0) - (repTripCount[a] ?? 0))
+    const seenIds = new Set()
+    const stops = []
+    for (const key of keysSorted) {
+      const tripId = repTrips[key]
+      if (!tripStops[tripId]) continue
+      for (const { stop_id } of tripStops[tripId]) {
+        const areaId = pointToArea[stop_id] ?? stop_id
+        if (seenIds.has(areaId)) continue
+        const stop = stopMap[areaId] ?? stopMap[stop_id]
+        if (!stop) continue
+        seenIds.add(areaId)
+        stops.push({
+          id: stop.stop_id,
+          code: stop.stop_code,
+          name: stop.stop_name,
+          lat: parseFloat(stop.stop_lat),
+          lon: parseFloat(stop.stop_lon),
+        })
       }
-    }).filter(Boolean)
-    // Dédupliquer les stop_areas consécutifs
-    const deduped = stops.filter((s, i) => i === 0 || s.id !== stops[i - 1].id)
-    return { direction: dir, headsign: deduped.at(-1)?.name ?? '', stops: deduped }
+    }
+    // Headsign = trip_headsign GTFS du trip principal (correspond exactement au CSV TAM)
+    const mainTripId = repTrips[keysSorted[0]]
+    const headsign = tripHeadsign[mainTripId] ?? ''
+    return { direction: dir, headsign, stops }
   }).filter(Boolean)
 
   return {

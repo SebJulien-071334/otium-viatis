@@ -9,7 +9,7 @@
       "directions": [
         {
           "direction": 0,
-          "headsign": "Gare Sud de France",
+          "headsign": "MONTPELLIER - Gare Sud de France",
           "stops": [
             {
               "id": "S5563",
@@ -232,7 +232,7 @@
         },
         {
           "direction": 1,
-          "headsign": "Mosson",
+          "headsign": "MONTPELLIER - Mosson",
           "stops": [
             {
               "id": "S5844",
@@ -464,7 +464,7 @@
       "directions": [
         {
           "direction": 0,
-          "headsign": "Jacou",
+          "headsign": "JACOU - Jacou",
           "stops": [
             {
               "id": "S5760",
@@ -666,7 +666,7 @@
         },
         {
           "direction": 1,
-          "headsign": "Saint-Jean de Védas Centre",
+          "headsign": "ST JEAN DE VEDAS - Saint-Jean de Védas Centre",
           "stops": [
             {
               "id": "S5291",
@@ -877,7 +877,7 @@
       "directions": [
         {
           "direction": 0,
-          "headsign": "Juvignac",
+          "headsign": "JUVIGNAC - Juvignac",
           "stops": [
             {
               "id": "S5689",
@@ -1065,7 +1065,7 @@
         },
         {
           "direction": 1,
-          "headsign": "Pérols Étang de l'Or",
+          "headsign": "PEROLS - Pérols Étang de l'Or",
           "stops": [
             {
               "id": "S5311",
@@ -1248,6 +1248,20 @@
               "name": "Pérols Étang de l'Or",
               "lat": 43.5575958333333,
               "lon": 3.96345781
+            },
+            {
+              "id": "S5331",
+              "code": "5331",
+              "name": "Cougourlude",
+              "lat": 43.5713374,
+              "lon": 3.91404308
+            },
+            {
+              "id": "S5327",
+              "code": "5327",
+              "name": "Lattes Centre",
+              "lat": 43.5707522866667,
+              "lon": 3.90513746
             }
           ]
         }
@@ -1262,7 +1276,7 @@
       "directions": [
         {
           "direction": 0,
-          "headsign": "Garcia Lorca",
+          "headsign": "MONTPELLIER - Garcia Lorca",
           "stops": [
             {
               "id": "S5470",
@@ -1389,19 +1403,12 @@
               "name": "La Rauze",
               "lat": 43.593529685,
               "lon": 3.89595445
-            },
-            {
-              "id": "S5470",
-              "code": "5470",
-              "name": "Garcia Lorca",
-              "lat": 43.59121067375,
-              "lon": 3.89046778
             }
           ]
         },
         {
           "direction": 1,
-          "headsign": "Garcia Lorca",
+          "headsign": "MONTPELLIER - Garcia Lorca",
           "stops": [
             {
               "id": "S5470",
@@ -1528,13 +1535,6 @@
               "name": "Restanque",
               "lat": 43.590363775,
               "lon": 3.885114215
-            },
-            {
-              "id": "S5470",
-              "code": "5470",
-              "name": "Garcia Lorca",
-              "lat": 43.59121067375,
-              "lon": 3.89046778
             }
           ]
         }
@@ -1549,7 +1549,7 @@
       "directions": [
         {
           "direction": 0,
-          "headsign": "Clapiers",
+          "headsign": "CLAPIERS - Clapiers",
           "stops": [
             {
               "id": "S6002",
@@ -1737,7 +1737,7 @@
         },
         {
           "direction": 1,
-          "headsign": "Grés de Montpellier",
+          "headsign": "ST JEAN DE VEDAS - Grés de Montpellier",
           "stops": [
             {
               "id": "S5974",
@@ -2144,6 +2144,16 @@
       ]
     },
     {
+      "id": "S5331",
+      "code": "5331",
+      "name": "Cougourlude",
+      "lat": 43.5713374,
+      "lon": 3.91404308,
+      "lines": [
+        "3"
+      ]
+    },
+    {
       "id": "S5433",
       "code": "5433",
       "name": "Croix d'Argent",
@@ -2394,6 +2404,16 @@
       "lon": 3.89595445,
       "lines": [
         "4"
+      ]
+    },
+    {
+      "id": "S5327",
+      "code": "5327",
+      "name": "Lattes Centre",
+      "lat": 43.5707522866667,
+      "lon": 3.90513746,
+      "lines": [
+        "3"
       ]
     },
     {

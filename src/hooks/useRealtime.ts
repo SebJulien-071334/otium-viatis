@@ -64,12 +64,20 @@ function tokenize(s: string): string[] {
     .map(t => ABBR[t] ?? t)
 }
 
+function tokenMatches(a: string, b: string): boolean {
+  if (a === b) return true
+  // Gère abréviations avec point : "montp." → préfixe de "montpellier"
+  const ac = a.endsWith('.') ? a.slice(0, -1) : a
+  const bc = b.endsWith('.') ? b.slice(0, -1) : b
+  return bc.startsWith(ac) || ac.startsWith(bc)
+}
+
 function stopMatches(csvName: string, stopName: string): boolean {
   const csvTokens = tokenize(csvName)
   const stopTokens = tokenize(stopName)
   const shorter = csvTokens.length <= stopTokens.length ? csvTokens : stopTokens
   const longer = csvTokens.length <= stopTokens.length ? stopTokens : csvTokens
-  return shorter.every(t => longer.includes(t))
+  return shorter.every(t => longer.some(u => tokenMatches(t, u)))
 }
 
 async function fetchDepartures(stopName: string, lineCode?: string, headsign?: string): Promise<Departure[]> {

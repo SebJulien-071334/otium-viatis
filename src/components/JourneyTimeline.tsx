@@ -52,7 +52,7 @@ export default function JourneyTimeline({ journey }: JourneyTimelineProps) {
                 <div className="flex-1 py-1">
                   <div className="flex items-center gap-2">
                     <LineBadge code={seg.lineCode} size="sm" />
-                    <span className="text-xs text-secondaire truncate">dir. {seg.headsign}</span>
+                    <span className="text-xs text-secondaire truncate">dir. {seg.headsign.includes(' - ') ? seg.headsign.split(' - ').slice(1).join(' - ') : seg.headsign}</span>
                   </div>
                   <p className="text-xs text-secondaire/60 mt-0.5">
                     {seg.stopCount} arrêt{seg.stopCount > 1 ? 's' : ''}

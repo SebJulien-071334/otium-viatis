@@ -16,9 +16,10 @@
 - Tri `paretoSort` : si deux itinéraires sont à ≤5 min d'écart → préférer le moins de correspondances
 - Sinon : le plus rapide gagne
 - Seuil configurable : `TRANSFER_THRESHOLD_MIN = 5`
+- `LocalSegment.secondStop` : stop suivant après `fromStop` — fallback temps réel si terminus absent du CSV TAM
 
 ## Architecture données
-- **Arrêts** : `src/data/network.json` — 104 arrêts tram, côté client
+- **Arrêts** : `src/data/network.json` — 110 arrêts tram, côté client
 - **Itinéraire** : `src/lib/itinerary.ts` — direct + 1 + 2 correspondances
 - **Temps réel** : CSV TAM via `api/realtime.ts` — polling 30s
 - **Adresses** : BAN `https://api-adresse.data.gouv.fr/search/` — browser direct, CORS OK
@@ -37,6 +38,7 @@ npm run build-network # régénère network.json depuis GTFS
 npm run type-check
 npm run test:run
 vercel --prod
+node scripts/check-realtime-coverage.mjs  # vérifie couverture CSV TAM (110 arrêts)
 ```
 
 ## Test smartphone (ngrok)
@@ -54,7 +56,7 @@ Source : `../Pwa-Otium_V/api/Tam/TAM_MMM_GTFS/` → `npm run build-network` → 
 
 ## Couleurs officielles lignes TAM
 ```
-L1: #0070C0 · L2: #F7901E · L3: #8DC63F · L4: #EE1C25 · L5: #9E1F63 (text: #FFFFFF)
+L1: #005CA9 · L2: #EF7D00 · L3: #C8D400 (text: #000000) · L4: #4B2A0E · L5: #287431
 ```
 Toujours utiliser `getTamColor()` depuis `src/lib/tam-colors.ts` — accepte `"1"` ou `"L1"`
 
@@ -67,20 +69,24 @@ Toujours utiliser `getTamColor()` depuis `src/lib/tam-colors.ts` — accepte `"1
 - Raspberry Pi 5 + Argon V3 + SSD 500Go + Ethernet Cat6 (~936/880 Mbps)
 - Post-MVP : migrer Vercel Functions → Express/Fastify sur la Pi
 
-## UX Home — cartes départ/arrivée (`src/pages/Home.tsx`)
-- Deux cartes absolues dans un conteneur `PEEK=128px / CARD_H=120px` — `perspective: 1200px`
-- Carte avant : `translateY(-8px) scale(1) zIndex:10` — glow pulse TAM bleu 2400ms permanent (les deux cartes)
-- Carte arrière : `translateY(PEEK) translateX(30px) scale(0.82) rotateY(-8deg) brightness(0.45) blur(0.4px) zIndex:5` — cliquable
-- Swap interactif : `useState(swapped)` — clic sur carte arrière → permute avant/arrière ; `useEffect` reset swapped quand `from` change
-- Logique : `departIsBack = swapped ? !fromFilled : fromFilled`
-- Largeur cards : `max-w-sm mx-auto` — padding `py-6 px-4` (ratio ≈ nombre d'or px/py)
-- Bouton "Calculer l'itinéraire" : fade-in + slide-up quand les deux champs sont remplis
-- `StationPicker` : icône `logout.svg` avant label, `iconRotated=true` pour Arrivée (rotation 180°)
+## Fichiers clés
+- `src/pages/Home.tsx` — wizard 4 steps, FABs, favoris
+- `src/components/StationPicker.tsx` — sélecteur arrêt/adresse/GPS
+- `src/lib/itinerary.ts` — algo routage + paretoSort
+- `src/data/network.json` — 110 arrêts tram (généré GTFS)
+- `api/realtime.ts` — proxy CSV TAM, polling 30s
+- `api/walking.ts` — ORS foot-walking
+- `src/lib/tam-colors.ts` — couleurs lignes TAM
 
 ## Thème & Typographie
 - **Palette light** : fond #F5F7FA · surface #FFFFFF · surface-2 #EEF1F6 · texte #1A1F2E · secondaire #6B7280 · accent #00C8FF · alerte #FF4757 · retard #FF6B35
 - **Police** : Roboto (Google Fonts, wght 400/600/700)
 - **Rationale** : dark theme éclairci insuffisant dehors (soleil) — light theme = lisibilité garantie tram outdoor
+
+## Dépôt Git
+- GitHub privé : `https://github.com/SebJulien-071334/otium-viatis`
+- Remote : `origin` → HTTPS
+- Branche principale : `master`
 
 ## Contexte CLI
 - `/compact` à 50% contexte utilisé — accord utilisateur avant action

@@ -1,9 +1,9 @@
 export const TAM_COLORS = {
-  L1: { bg: '#0070C0', text: '#FFFFFF', label: 'Ligne 1' },
-  L2: { bg: '#F7901E', text: '#FFFFFF', label: 'Ligne 2' },
-  L3: { bg: '#8DC63F', text: '#FFFFFF', label: 'Ligne 3' },
-  L4: { bg: '#EE1C25', text: '#FFFFFF', label: 'Ligne 4' },
-  L5: { bg: '#9E1F63', text: '#FFFFFF', label: 'Ligne 5' },
+  L1: { bg: '#005CA9', text: '#FFFFFF', label: 'Ligne 1' },
+  L2: { bg: '#EF7D00', text: '#FFFFFF', label: 'Ligne 2' },
+  L3: { bg: '#C8D400', text: '#000000', label: 'Ligne 3' },
+  L4: { bg: '#4B2A0E', text: '#FFFFFF', label: 'Ligne 4' },
+  L5: { bg: '#287431', text: '#FFFFFF', label: 'Ligne 5' },
 } as const
 
 export type TamLineKey = keyof typeof TAM_COLORS

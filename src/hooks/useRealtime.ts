@@ -80,12 +80,7 @@ function stopMatches(csvName: string, stopName: string): boolean {
   return shorter.every(t => longer.some(u => tokenMatches(t, u)))
 }
 
-async function fetchDepartures(stopName: string, lineCode?: string, headsign?: string): Promise<Departure[]> {
-  const res = await fetch('/api/realtime')
-  if (!res.ok) throw new Error(`Realtime HTTP ${res.status}`)
-  const text = await res.text()
-  const rows = parseRealtimeCSV(text)
-
+function filterDepartures(rows: RawRow[], stopName: string, lineCode?: string, headsign?: string): Departure[] {
   return rows
     .filter(r => stopMatches(r.stopName, stopName))
     .filter(r => !lineCode || r.lineCode === lineCode)
@@ -96,10 +91,23 @@ async function fetchDepartures(stopName: string, lineCode?: string, headsign?: s
     .slice(0, 3)
 }
 
-export function useRealtime(stopName: string | null, lineCode?: string, headsign?: string, enabled = true) {
+async function fetchDepartures(stopName: string, lineCode?: string, headsign?: string, altStopName?: string): Promise<Departure[]> {
+  const res = await fetch('/api/realtime')
+  if (!res.ok) throw new Error(`Realtime HTTP ${res.status}`)
+  const text = await res.text()
+  const rows = parseRealtimeCSV(text)
+
+  const primary = filterDepartures(rows, stopName, lineCode, headsign)
+  if (primary.length > 0 || !altStopName) return primary
+
+  // Terminus absent du CSV → fallback sur le stop suivant (même ligne, même direction)
+  return filterDepartures(rows, altStopName, lineCode, headsign)
+}
+
+export function useRealtime(stopName: string | null, lineCode?: string, headsign?: string, altStopName?: string, enabled = true) {
   return useQuery({
-    queryKey: ['realtime', stopName, lineCode, headsign],
-    queryFn: () => fetchDepartures(stopName!, lineCode, headsign),
+    queryKey: ['realtime', stopName, lineCode, headsign, altStopName],
+    queryFn: () => fetchDepartures(stopName!, lineCode, headsign, altStopName),
     enabled: enabled && !!stopName,
     refetchInterval: 30_000,
     staleTime: 25_000,

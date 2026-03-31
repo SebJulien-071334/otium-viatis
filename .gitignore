@@ -8,3 +8,12 @@ dist/
 .DS_Store
 
 .vercel
+
+# Build artifacts
+tsconfig.tsbuildinfo
+tsconfig.node.tsbuildinfo
+vite.config.js
+vite.config.d.ts
+
+# Test artifacts
+test-results/

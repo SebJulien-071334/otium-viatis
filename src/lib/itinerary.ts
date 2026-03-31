@@ -55,6 +55,7 @@ export interface LocalSegment {
   lineTextColor: string
   headsign: string
   fromStop: NetworkStop
+  secondStop?: NetworkStop  // stop après fromStop — fallback temps réel si terminus absent du CSV
   toStop: NetworkStop
   stopCount: number
   durationMin: number
@@ -113,6 +114,7 @@ function makeSegment(
     lineTextColor: line.textColor,
     headsign: dir.headsign,
     fromStop: dir.stops[fromIdx],
+    secondStop: fromIdx + 1 < toIdx ? dir.stops[fromIdx + 1] : undefined,
     toStop: dir.stops[toIdx],
     stopCount,
     durationMin: stopCount * 2,

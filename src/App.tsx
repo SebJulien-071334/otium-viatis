@@ -26,40 +26,53 @@ function GeoConsentDialog({
   onDecline: () => void
 }) {
   return (
-    <div className="fixed inset-0 z-50 flex items-end justify-center bg-black/60 px-4" style={{ paddingBottom: 'max(1.5rem, env(safe-area-inset-bottom))' }}>
-      <div className="rounded-2xl w-full max-w-sm shadow-2xl overflow-hidden" style={{ backgroundColor: '#1e1e1e' }}>
-        <div className="px-5 pt-5 pb-4">
-          <div className="flex items-center mb-2">
-            <h2 className="font-bold text-texte text-base">Pour une meilleure expérience</h2>
-          </div>
-          <p className="text-sm text-secondaire leading-relaxed">
-            Accès à votre position pour calculer le temps de marche et vérifier
-            si vous avez le temps avant le prochain tram.
-          </p>
+    <div
+      className="fixed z-50 rounded-2xl shadow-2xl"
+      style={{
+        top: 'max(0.75rem, env(safe-area-inset-top))',
+        left: '0.75rem',
+        width: 272,
+        backgroundColor: '#2a2a2a',
+      }}
+    >
+      {/* Header */}
+      <div className="flex items-start justify-between px-4 pt-4 pb-2">
+        <div>
+          <p className="text-sm font-bold text-white leading-snug">www.TEST.com souhaite</p>
         </div>
-        <div className="px-5 pb-5 flex flex-col gap-3">
-          <button
-            onClick={onAccept}
-            className="w-full py-3 rounded-lg text-sm font-medium text-white"
-            style={{ backgroundColor: '#1a73e8' }}
-          >
-            Autoriser pendant la visite du site
-          </button>
-          <button
-            onClick={onAccept}
-            className="w-full py-3 rounded-lg text-sm font-medium text-white"
-            style={{ backgroundColor: '#1a73e8' }}
-          >
-            Autoriser cette fois-ci
-          </button>
-          <button
-            onClick={onDecline}
-            className="w-full py-3 rounded-lg text-sm font-medium"
-            style={{ border: '1px solid #1a73e8', color: '#1a73e8' }}
-          >
-            Ne jamais autoriser
-          </button>
-        </div>
+        <button onClick={onDecline} className="text-white/50 hover:text-white/80 ml-2 mt-0.5 active:opacity-60 text-base leading-none">✕</button>
+      </div>
+      <div className="flex items-center gap-2 px-4 pb-4">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="shrink-0" style={{ color: '#9aa0a6' }}>
+          <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+          <circle cx="12" cy="10" r="3"/>
+        </svg>
+        <span className="text-sm" style={{ color: '#e8eaed' }}>Connaître votre position</span>
+      </div>
+
+      {/* Boutons pill empilés */}
+      <div className="px-3 pb-4 flex flex-col gap-2">
+        <button
+          onClick={onAccept}
+          className="w-full py-2.5 rounded-full text-sm font-medium text-white text-center active:opacity-80"
+          style={{ backgroundColor: '#1a4a6e' }}
+        >
+          Autoriser pendant la visite du site
+        </button>
+        <button
+          onClick={onAccept}
+          className="w-full py-2.5 rounded-full text-sm font-medium text-white text-center active:opacity-80"
+          style={{ backgroundColor: '#1a4a6e' }}
+        >
+          Autoriser cette fois-ci
+        </button>
+        <button
+          onClick={onDecline}
+          className="w-full py-2.5 rounded-full text-sm font-medium text-white text-center active:opacity-80"
+          style={{ backgroundColor: '#1a4a6e' }}
+        >
+          Ne jamais autoriser
+        </button>
       </div>
     </div>
   )

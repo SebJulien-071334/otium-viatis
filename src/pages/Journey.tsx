@@ -15,8 +15,8 @@ interface JourneyProps {
   onBack: () => void
 }
 
-function RealtimePanel({ stopName, lineCode, headsign }: { stopName: string; lineCode: string; headsign: string }) {
-  const { data, isLoading, error, dataUpdatedAt } = useRealtime(stopName, lineCode, headsign)
+function RealtimePanel({ stopName, lineCode, headsign, altStopName }: { stopName: string; lineCode: string; headsign: string; altStopName?: string }) {
+  const { data, isLoading, error, dataUpdatedAt } = useRealtime(stopName, lineCode, headsign, altStopName)
   const isStale = dataUpdatedAt > 0 && Date.now() - dataUpdatedAt > 2 * 60 * 1000
 
   if (isLoading) return <p className="text-xs text-secondaire px-4 py-2">Chargement temps réel…</p>
@@ -133,9 +133,10 @@ function JourneyContent({
   const departureLineCode = selected?.segments[0].lineCode ?? undefined
   const departureHeadsign = selected?.segments[0].headsign ?? undefined
   const realtimeStopName = departureStop?.name ?? null
+  const altStopName = selected?.segments[0].secondStop?.name ?? undefined
 
   // Remonte les données temps réel pour extraire nextTramMinutes
-  const { data: realtimeData } = useRealtime(realtimeStopName ?? '', departureLineCode, departureHeadsign)
+  const { data: realtimeData } = useRealtime(realtimeStopName ?? '', departureLineCode, departureHeadsign, altStopName)
   const nextTramMinutes = realtimeData?.[0]?.waitMinutes ?? null
 
   return (
@@ -178,7 +179,7 @@ function JourneyContent({
         {selected && (
           <>
             {realtimeStopName && departureLineCode && departureHeadsign && (
-              <RealtimePanel stopName={realtimeStopName} lineCode={departureLineCode} headsign={departureHeadsign} />
+              <RealtimePanel stopName={realtimeStopName} lineCode={departureLineCode} headsign={departureHeadsign} altStopName={altStopName} />
             )}
 
             {departureStop && nextTramMinutes !== null && (

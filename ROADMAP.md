@@ -22,7 +22,7 @@
 - [x] `smart-departure.ts` — findNearestStations() Haversine
 - [x] `gtfs-parser.ts` — parsing stops.txt GTFS
 - [x] `useFavorites.ts` — CRUD favoris (Zustand + localStorage)
-- [x] `scripts/build-network.mjs` — génère network.json (5 lignes, 108 arrêts)
+- [x] `scripts/build-network.mjs` — génère network.json (5 lignes, 110 arrêts, headsign GTFS réel)
 - [x] `src/lib/itinerary.ts` — moteur routage (direct + 1 correspondance + 2 correspondances)
 - [x] `src/data/network.json` — réseau tram compilé
 
@@ -48,6 +48,7 @@
 - [x] `itinerary.ts` — tri Pareto multi-objectif (temps + correspondances + hub priority)
 - [x] `itinerary.ts` — footpaths GTFS dans recherche 1 correspondance (ex: Gare Saint-Roch ↔ Gare Saint-Roch - République)
 - [x] `StationPicker.tsx` — badges lignes dans dropdown ET dans champ sélectionné
+- [x] Fallback `secondStop` terminus — arrêts terminus absents du CSV TAM couverts via stop suivant (3 terminus identifiés)
 
 ## Phase 3.6 — Smart itinéraire & UI ✅
 - [x] `itinerary.ts` — `findAllCandidates()` retourne tous les candidats pour scoring temps réel
@@ -58,8 +59,8 @@
 - [x] `WalkIndicator.tsx` — indicateur marche 2 personnages style feu piéton (walk/run SVG Phosphor)
 - [x] `RealtimePanel` — hiérarchie visuelle prochains passages : 1er mis en avant, 2ème/3ème estompés
 - [x] `StationPicker.tsx` — icônes SVG tram/carte/GPS dans dropdown, `translate="no"` anti-traduction navigateur
-- [x] Animation blocs départ/arrivée — effet cartes profondeur 3D (perspective 1200px, rotateY, swap interactif tap, reset auto)
-- [x] `Home.tsx` — glow pulse TAM bleu sur carte avant (2400ms, ~25 bpm, jamais éteint)
+- [x] `Home.tsx` — redesign cards : deux cards fixes empilées `rounded-3xl`, bouton ↕ swap, sans glow ni 3D
+- [x] `Home.tsx` — wizard 4 steps (intro/départ/arrivée/résumé), slide animations, glow cyan analogique `#00C8FF`
 - [x] `StationPicker.tsx` — icône départ/arrivée (logout.svg, rotation 180° pour arrivée), labels plus visibles
 
 ## Phase 4 — UX & PWA
